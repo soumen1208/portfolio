@@ -1,0 +1,36 @@
+.card {
+    width: 10rem;
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap: 0.5rem;
+    align-items: center;
+    width: 10rem;
+    text-align: center;
+    background-color: rgb(243, 246, 246);
+    word-break: break-all;
+    border: 7px solid var(--orangeCard);
+    box-shadow: var(--boxShadow);
+    border-radius: 20px;
+    padding: 0px 26px 2rem 26px;
+}
+
+.card>:nth-child(3) {
+    font-size: 16px;
+    color: var(--gray);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card>img {
+    transform: scale(0.6);
+    margin-top: -1rem;
+}
+
+.c-button {
+    background: #ffffff;
+    box-shadow: 0px 19px 60px rgba(0, 0, 0, 0.08);
+    border: none;
+    font-size: 16px;
+    color: rgb(89, 187, 225);
+}

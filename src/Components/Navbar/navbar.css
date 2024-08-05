@@ -1,0 +1,60 @@
+.n-wrapper {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.n-left {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    gap: 2vw;
+}
+
+.n-name {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.n-right {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+}
+
+.n-list {
+    flex: 10;
+}
+
+.n-list>ul {
+    display: flex;
+    gap: 3rem;
+    margin-right: 4rem;
+    text-decoration: none;
+}
+
+.n-list>ul>li:hover {
+    color: var(--orange);
+    cursor: pointer;
+}
+
+.n.button {
+    flex: 2;
+}
+
+li {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 750px) {
+    .n-list {
+        display: none;
+    }
+
+    .n-button {
+        display: none;
+    }
+}
